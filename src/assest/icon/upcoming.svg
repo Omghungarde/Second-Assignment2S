@@ -1,0 +1,11 @@
+<svg id="dashboard" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <path id="Path_129693" data-name="Path 129693" d="M0,0H24V24H0Z" fill="none"/>
+  <g id="Group_172692" data-name="Group 172692" transform="translate(0.25 0.25)">
+    <circle id="Ellipse_8142" data-name="Ellipse 8142" cx="5.733" cy="5.733" r="5.733" transform="translate(10.783 10.783)" fill="none" stroke="#797a7a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Path_129720" data-name="Path 129720" d="M19.678,15.506l-2.776,3.7a.719.719,0,0,1-1.081.077l-1.433-1.433" transform="translate(-0.606 -0.656)" fill="none" stroke="#797a7a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Path_129721" data-name="Path 129721" d="M7.917,16.584H2.183A1.433,1.433,0,0,1,.75,15.151V3.7A1.433,1.433,0,0,1,2.183,2.265h12.9A1.433,1.433,0,0,1,16.517,3.7V7.984" transform="translate(0 -0.067)" fill="none" stroke="#797a7a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <line id="Line_88748" data-name="Line 88748" x2="15.767" transform="translate(0.75 6.483)" fill="none" stroke="#797a7a" stroke-linejoin="round" stroke-width="1.5"/>
+    <line id="Line_88749" data-name="Line 88749" y1="2.867" transform="translate(5.043 0.75)" fill="none" stroke="#797a7a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <line id="Line_88750" data-name="Line 88750" y1="2.867" transform="translate(12.21 0.75)" fill="none" stroke="#797a7a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  </g>
+</svg>

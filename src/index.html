@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="copy.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
+        <div class="container-fluid">
+            <!-- Sidebar Toggle Button (Auto-closes navbar) -->
+            <button class="navbar-toggler me-2 d-lg-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#sidebarMenu" aria-expanded="false" aria-controls="sidebarMenu"
+                aria-label="Toggle sidebar"style=" border: 1px solid grey;">
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            </button>
+            <a class="navbar-brand" href="#">
+                <img src="./assest/image/TCC logo2@2x 1.png" alt="Logo" height="54.13px" width="140px">
+            </a>
+            <div class="d-none d-md-block header1">
+                <h4 style="font-size: larger; margin-top: 5px; margin-bottom: 0px;">Create New Learning Path</h4>
+                <p style="font-size: small; margin-bottom: 0px;">Learning Paths > Learning Path > Create New Learning
+                    Path</p>
+            </div>
+            <!-- Navbar Toggle Button (Auto-closes sidebar) -->
+            <button class="navbar-toggler btn-primary" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-expanded="false" aria-controls="navbarNav"
+                aria-label="Toggle navigation" style=" border: 1px solid grey;">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li>
+                    <li class="nav-item dropdown me-3">
+                        <button class="nav-link dropdown-toggle d-flex align-items-center" href="#" type="button"
+                            data-bs-toggle="dropdown" style="color: black;">
+                            <img src="./assest/flags/united-kingdom.png" alt="UK" width="27px" height="27px"
+                                class="rounded-circle">
+                            <span class="" style="color: black;">EN(UK)</span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#"> <img src="./assest\flags\icons8-germany-flag-48.png"
+                                        alt="" height="14px" width="21px"> Deutch (Germany)</a></li>
+                            <li><a class="dropdown-item" href="#"> <img src="./assest\flags\icons8-netherlands-48.png"
+                                        alt="" height="14px" width="21px"> Dutch (Netherland)</a></li>
+                            <li><a class="dropdown-item" href="#"> <img src="./assest\flags\icons8-usa-48.png" alt=""
+                                        height="14px" width="21px"> English (default)</a></li>
+                            <li><a class="dropdown-item" href="#"> <img src="./assest\flags\icons8-uk-48.png" alt=""
+                                        height="14px" width="21px"> English(UK)</a></li>
+                            <li><a class="dropdown-item" href="#"> <img src="./assest\flags\icons8-mexico-48.png" alt=""
+                                        height="14px" width="21px"> Español (Mexico)</a></li>
+                            <li><a class="dropdown-item" href="#"> <img src="./assest\flags\icons8-spain-48.png" alt=""
+                                        height="14px" width="21px"> Español (Spain)</a></li>
+                            <li><a class="dropdown-item" href="#"> <img src="./assest\flags\icons8-france-48.png" alt=""
+                                        height="14px" width="21px"> Français (France)</a></li>
+                            <li><a class="dropdown-item" href="#"> <img src="./assest\flags\icons8-portugal-48.png" alt=""
+                                        height="14px" width="21px"> Portuguese (Portugal)</a></li>
+                            <li><a class="dropdown-item" href="#"> <img
+                                        src="./assest\flags\icons8-russian-federation-48.png" alt="" height="14px"
+                                        width="21p"> PYCCKNN (Russian)</a></li>
+                            <li><a class="dropdown-item" href="#"> <img src="./assest\flags\icons8-vietnam-48.png" alt=""
+                                        height="14px" width="21px"> Viêng Chăn (Vietnamese)</a></li>
+                            <li><a class="dropdown-item" href="#"> <img src="./assest\flags\icons8-thailand-48.png" alt=""
+                                        height="14px" width="21px"> อังกฤษ (Thai)</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Bell Icon -->
+                    <li class="d-none d-lg-block nav-item me-3">
+                        <img src="./assest/icon/bell.png" alt="Notifications" height="18px">
+                    </li>
+                    <li class="d-sm-block d-lg-none nav-item"><span>Notification</span></li>
+
+                    <!-- Separator -->
+                    <li class="d-none d-lg-block nav-item me-3">
+                        <span>|</span>
+                    </li>
+
+                    <!-- Settings Icon -->
+                    <li class="d-none d-lg-block nav-item me-3">
+                        <img src="./assest/icon/setting.png" alt="Settings" height="18px">
+                    </li>
+                    <li class="d-sm-block d-lg-none nav-item"><span>Setting</span></li>
+
+                    <!-- Separator -->
+                    <li class="d-none d-lg-block nav-item me-3">
+                        <span>|</span>
+                    </li>
+
+                    <!-- Profile Section -->
+                    <li class="nav-item d-flex align-items-center">
+                        <img src="https://images.unsplash.com/photo-1619895862022-09114b41f16f?w=500&auto=format&fit=crop&q=60"
+                            alt="Profile" height="33px" width="33px" class="d-none d-lg-block  rounded-circle me-2 ">
+                        <div>
+                            <h6 class="mb-0">Megan Roberts</h6>
+                            <p class="mb-0 d-none d-lg-block " style="font-size: small;">Admin</p>
+                        </div>
+                        <img src="./assest/icon/down-arrow.png" alt="Dropdown" height="30px"
+                            class="d-none d-lg-block ms-2">
+                    </li>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sidebar (Always Visible on Large Screens) -->
+    <div class="sidebar collapse d-lg-block bg-body-tertiary" id="sidebarMenu">
+        <ul class="nav flex-column">
+            <li>
+                <a href="#" class="nav-link link-body-emphasis">
+
+                </a>
+            </li>
+            <li>
+                <a href="#"
+                    class="d-flex align-items-center link-body-emphasis text-decoration-none dropdown-toggle ms-4 mb-3"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="./assest/icon/dashboardnew.svg" alt="" height="15.47px" , width="17.59px">
+                    DASHBOARD
+                </a>
+                <ul class="dropdown-menu text-small">
+                    <li><a class="dropdown-item" href="#"> <img src="./assest\icon\Group 196730.svg" alt=""
+                                height="15.47px" , width="17.59px"> My Dashboard</a></li>
+                    <li><a class="dropdown-item" href="#"> <img src="" alt="" height="15.47px" , width="17.59px">
+                            Resource Allocation</a></li>
+                    <li><a class="dropdown-item" href="#"> <img src="" alt="" height="15.47px" , width="17.59px">
+                            Certification Roadmap</a></li>
+                    <li><a class="dropdown-item" href="#"> <img src="" alt="" height="15.47px" , width="17.59px">
+                            Skills Matrix</a></li>
+                    <li><a class="dropdown-item" href="#"> <img src="./assest/icon/resource bill.svg" alt=""
+                                height="15.47px" , width="17.59px">
+                            Resource Billability</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#"
+                    class="d-flex align-items-center link-body-emphasis text-decoration-none dropdown-toggle ms-4 mb-3"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="./assest/icon/teammember.svg" alt="" height="15.47px" , width="17.59px">
+                    TEAM MEMBERS
+                </a>
+                <ul class="dropdown-menu text-small">
+                    <li><a class="dropdown-item" href="#"> <img src="./assest/icon/teammember.svg" alt="" height="15.47px"
+                                , width="17.59px"> Team
+                            member</a></li>
+                    <li><a class="dropdown-item" href="#"> <img src="./assest/icon/certification.svg" alt=""
+                                height="15.47px" , width="17.59px">
+                            Certification</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#"
+                    class="d-flex align-items-center link-body-emphasis text-decoration-none dropdown-toggle ms-4 mb-3"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="./assest/icon/projects.svg" alt="" height="15.47px" , width="17.59px">
+                    PROJECTS
+                </a>
+                <ul class="dropdown-menu text-small">
+                    <li><a class="dropdown-item" href="#"> <img src="./assest/icon/In Progress.svg" alt=""
+                                height="15.47px" , width="17.59px"> In Progress</a></li>
+
+                    <li><a class="dropdown-item" href="#"> <img src="./assest\icon\Group 196730.svg" alt=""
+                                height="15.47px" , width="17.59px"> Upcoming</a></li>
+
+                    <li><a class="dropdown-item" href="#"> <img src="./assest/icon/completed.svg" alt="" height="15.47px"
+                                , width="17.59px"> Completed</a></li>
+
+                    <li><a class="dropdown-item" href="#"> <img src="./assest/icon/archived.svg" alt="" height="15.47px" ,
+                                width="17.59px"> Archived</a></li>
+                </ul>
+
+            </li>
+            <li>
+                <a href="#"
+                    class="d-flex align-items-center link-body-emphasis text-decoration-none dropdown-toggle ms-4 mb-3"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="./assest/icon/clients.svg" alt="" height="15.47px" , width="17.59px">
+                    CLIENTS
+                </a>
+                <ul class="dropdown-menu text-small">
+                    <li><a class="dropdown-item" href="#"> <img src="./assest/icon/clients.svg" alt="" height="15.47px" ,
+                                width="17.59px"> Client Details</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#"
+                    class="d-flex align-items-center link-body-emphasis text-decoration-none dropdown-toggle ms-4 mb-3"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="./assest/icon/learning path new.svg" alt="" height="15.47px" , width="17.59px">
+                    LEARNING PATHS
+                </a>
+                <ul class="dropdown-menu text-small">
+                    <li><a class="dropdown-item" href="#"> <img src="./assest/icon/learning path inside.svg" alt=""
+                                height="15.47px" , width="17.59px"> Learning Path</a></li>
+                    <li><a class="dropdown-item" href="#"> <img src="./assest/icon/courses.svg" alt="" height="15.47px" ,
+                                width="17.59px"> Courses</a></li>
+                    <li><a class="dropdown-item" href="#"> <img src="./assest/icon/skill sets.svg" alt="" height="15.47px"
+                                , width="17.59px"> Skill Sets</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="content">
+        <div class="card">
+            <div class="card-body">
+                <div class="container-fluid">
+                    <div class="row m-4 border-bottom align-items-center">
+                        <!-- Left Section (Text) -->
+                        <div class="col-12 col-md-9">
+                            <h4 style="font-size: medium;">Create New Learning Path</h4>
+                        </div>
+
+                        <!-- Right Section (Buttons) -->
+                        <div class="col-12 col-md-3 d-flex justify-content-md-end mt-1 mt-md-0">
+                            <button type="button" class="btn btn-outline-danger me-2">Cancel</button>
+                            <button type="button" class="btn btn-primary">Save</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row m-2" id="frontsection">
+                    <div class="col-12 col-lg-4 col-xl-2 text-center">
+                        <img src="./assest/image/profile.png" alt="" height="150px" width="150px" class="rounded-circle">
+                    </div>
+                    <div class="col-12 col-lg-8 col-xl-10">
+                        <div class="row">
+                            <div class="col-12 col-md-6 ">
+                                <label for="Name">Learning Paths</label>
+                                <input type="name" class="form-control" placeholder="Title">
+                            </div>
+
+                            <div class="col-12  col-md-6">
+                                <label for="Name">Select Courses</label>
+                                <select class="form-select" name="Designation">
+                                    <option value=""></option>
+                                    <option value="UI Development">UI Development</option>
+                                    <option value="Web Development">Web Development</option>
+                                    <option value="Database">Database</option>
+                                    <option value="Azure">Azure</option>
+                                    <option value="UI Development">UI Development</option>
+                                    <option value="UX Development">UX Development</option>
+                                    <option value="Power BI">Power BI</option>
+                                    <option value="Web Development">Web Development</option>
+                                </select>
+                            </div>
+
+                            <div class="col-12 mt-2">
+                                <label for="Name">Description</label>
+                                <textarea class="form-control" id="lorem10" rows="3" placeholder=""></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header">
+                    <h4 style="font-size: medium;">Courses Added</h4>
+                </div>
+                <div class="container-fluid d-none d-lg-block">
+                    <div class="table-responsive">
+                        <table class="table border">
+                            <thead>
+                                <div class="first">
+                                    <tr>
+                                        <th scope="col">Coures</th>
+                                        <th scope="col">Skill Sets</th>
+                                        <th scope="col">Description</th>
+                                        <th scope="col">Action</th>
+                                    </tr>
+                                </div>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">
+                                        <div class="info">
+                                            <div class="img">
+                                                <img src="./assest/image/1.jpg" alt="">
+                                            </div>
+                                            <div class="head">
+                                                <h6>Web Development</h6>
+                                                <p class="sub">Duration <span class="timew"> <img
+                                                            src="./assest/icon/time.png" alt=""> 80Hrs</span></p>
+
+                                            </div>
+
+
+
+                                        </div>
+                                    </th>
+                                    <td>
+                                        <div class="skill">
+                                            <p>HTML</p>
+                                            <p>CSS</p>
+                                            <p>PYTHON</p>
+                                            <p>JAVA</p>
+                                            <p>BOOTSTRP</p>
+                                            <p>JAVASCRIPT</p>
+                                            <p id="added">+2</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="desc">
+                                            <a href="#" class="link">https://app.intimeproio/app/main/dashboard</a>
+                                            <p style="margin-bottom: 0%;">ID: adam.murphy@mail.com</p>
+                                            <p style="margin-bottom: 0%;">Password:qwerty123</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="dust">
+                                            <span><i class="fa-solid fa-trash-can delete"></i></span>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <div class="info">
+                                            <div class="img">
+                                                <img src="./assest/image/2.jpg" alt="">
+                                            </div>
+                                            <div class="head">
+                                                <h6>UI Development</h6>
+                                                <p class="sub">Duration <span class="timew"> <img
+                                                            src="./assest/icon/time.png" alt=""> 85Hrs</span></p>
+
+                                            </div>
+
+
+
+                                        </div>
+                                    </th>
+                                    <td>
+                                        <div class="skill">
+                                            <p>HTML</p>
+                                            <p>PYTHON</p>
+                                            <p>CSS</p>
+                                            <p>JAVA</p>
+                                            <p id="added">+3</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="desc">
+                                            <a href="#" class="link">http://www.sample.edu/day</a>
+                                            <p style="margin-bottom: 0%;">ID: adam.murphy@mail.com</p>
+                                            <p style="margin-bottom: 0%;">Password:qwerty123</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="dust">
+                                            <span><i class="fa-solid fa-trash-can delete"></i></span>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <div class="info">
+                                            <div class="img">
+                                                <img src="././assest/image/3.jpg" alt="">
+                                            </div>
+                                            <div class="head">
+                                                <h6>Power BI</h6>
+                                                <p class="sub">Duration <span class="timew"> <img
+                                                            src="./assest/icon/time.png" alt=""> 65Hrs</span></p>
+
+                                            </div>
+
+
+
+                                        </div>
+                                    </th>
+                                    <td>
+                                        <div class="skill">
+                                            <p>HTML</p>
+                                            <p>PYTHON</p>
+                                            <p>CSS</p>
+                                            <p>JAVA</p>
+                                            <p id="added">+3</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="desc">
+                                            <a href="#" class="link">http://www.sample.org/head</a>
+                                            <p style="margin-bottom: 0%;">ID: adam.murphy@mail.com</p>
+                                            <p style="margin-bottom: 0%;">Password:qwerty123</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="dust">
+                                            <span><i class="fa-solid fa-trash-can delete"></i></span>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <div class="info">
+                                            <div class="img">
+                                                <img src="./assest/image/4.jpg" alt="">
+                                            </div>
+                                            <div class="head">
+                                                <h6>Database</h6>
+                                                <p class="sub">Duration <span class="timew"> <img
+                                                            src="./assest/icon/time.png" alt=""> 72Hrs</span></p>
+
+                                            </div>
+
+
+
+                                        </div>
+                                    </th>
+                                    <td>
+                                        <div class="skill">
+                                            <p>CSS</p>
+                                            <p>PYTHON</p>
+                                            <p>BOOTSTRP</p>
+                                            <p>JAVASCRIPT</p>
+                                            <p id="added">+2</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="desc">
+                                            <a href="#" class="link">http://www.sample.org/head</a>
+                                            <p style="margin-bottom: 0%;">ID: adam.murphy@mail.com</p>
+                                            <p style="margin-bottom: 0%;">Password:qwerty123</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="dust">
+                                            <span><i class="fa-solid fa-trash-can delete"></i></span>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="container cardfg">
+                    <div class="d-lg-none">
+                        <div class="card my-4" id="cardq">
+                            <div class="card-body" id="cardw">
+                                <div class="info">
+                                    <div class="img">
+                                        <img src="./assest/image/1.jpg" alt="">
+                                    </div>
+                                    <div class="head">
+                                        <h6>Web Development</h6>
+                                        <p class="sub">Duration <span class="timew"> <img src="./assest/icon/time.png"
+                                                    alt=""> 80Hrs</span></p>
+
+                                    </div>
+
+
+
+                                </div>
+
+                                <div class="skill" id="skilla">
+                                    <p>HTML</p>
+                                    <p>CSS</p>
+                                    <p>PYTHON</p>
+                                    <p>JAVA</p>
+                                    <p>BOOTSTRP</p>
+                                    <p>JAVASCRIPT</p>
+                                    <p id="added">+2</p>
+                                </div>
+                                <div class="desc" id="desc1">
+                                    <a href="#" class="link">https://app.intimeproio/app/main/dashboard</a>
+                                    <p style="margin-bottom: 0%;">ID: adam.murphy@mail.com</p>
+                                    <p style="margin-bottom: 0%;">Password:qwerty123</p>
+                                </div>
+                                <div class="container align-items-center">
+                                    <button class=" btn btn-outline-danger">Delete</button>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="card my-4">
+                            <div class="card-body">
+                                <div class="info">
+                                    <div class="img">
+                                        <img src="./assest/image/2.jpg" alt="">
+                                    </div>
+                                    <div class="head">
+                                        <h6>UI Development</h6>
+                                        <p class="sub">Duration <span class="timew"> <img src="./assest/icon/time.png"
+                                                    alt=""> 85Hrs</span></p>
+
+                                    </div>
+                                </div>
+                                <div class="skill" id="skilla">
+                                    <p>HTML</p>
+                                    <p>PYTHON</p>
+                                    <p>CSS</p>
+                                    <p>JAVA</p>
+                                    <p id="added">+3</p>
+                                </div>
+                                <div class="desc">
+                                    <a href="#" class="link">http://www.sample.edu/day</a>
+                                    <p style="margin-bottom: 0%;">ID: adam.murphy@mail.com</p>
+                                    <p style="margin-bottom: 0%;">Password:qwerty123</p>
+                                </div>
+                                <div class="container align-items-center">
+                                    <button class=" btn btn-outline-danger">Delete</button>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="card my-4">
+                            <div class="card-body">
+                                <div class="info">
+                                    <div class="img">
+                                        <img src="./assest/image/3.jpg" alt="">
+                                    </div>
+                                    <div class="head">
+                                        <h6>Power BI</h6>
+                                        <p class="sub">Duration <span class="timew"> <img src="./assest/icon/time.png"
+                                                    alt=""> 65Hrs</span></p>
+
+                                    </div>
+
+
+
+                                </div>
+                                <div class="skill" id="skilla">
+                                    <p>HTML</p>
+                                    <p>PYTHON</p>
+                                    <p>CSS</p>
+                                    <p>JAVA</p>
+                                    <p id="added">+3</p>
+                                </div>
+                                <div class="desc">
+                                    <a href="#" class="link">http://www.sample.org/head</a>
+                                    <p style="margin-bottom: 0%;">ID: adam.murphy@mail.com</p>
+                                    <p style="margin-bottom: 0%;">Password:qwerty123</p>
+                                </div>
+                                <div class="container align-items-center">
+                                    <button class=" btn btn-outline-danger">Delete</button>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="card my-4">
+                            <div class="card-body">
+                                <div class="info">
+                                    <div class="img">
+                                        <img src="./assest/image/4.jpg" alt="">
+                                    </div>
+                                    <div class="head">
+                                        <h6>Database</h6>
+                                        <p class="sub">Duration <span class="timew"> <img src="./assest/icon/time.png"
+                                                    alt=""> 72Hrs</span></p>
+
+                                    </div>
+
+
+
+                                </div>
+                                <div class="skill" id="skilla">
+                                    <p>CSS</p>
+                                    <p>PYTHON</p>
+                                    <p>BOOTSTRP</p>
+                                    <p>JAVASCRIPT</p>
+                                    <p id="added">+2</p>
+                                </div>
+                                <div class="desc">
+                                    <a href="#" class="link">http://www.sample.org/head</a>
+                                    <p style="margin-bottom: 0%;">ID: adam.murphy@mail.com</p>
+                                    <p style="margin-bottom: 0%;">Password:qwerty123</p>
+                                </div>
+                                <div class="container align-items-center">
+                                    <button class=" btn btn-outline-danger">Delete</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="pages" style="float:inline-end;">
+                        <span class="arrowleft1"><i class="fa-solid fa-angles-left"></i></span>
+                        <span class="arrowleft2"><i class="fa-solid fa-less-than"></i></span>
+                        <span class="number1"><i class="fa-solid fa-1"></i></span>
+                        <span class="number"><i class="fa-solid fa-2"></i></span>
+                        <span class="number"><i class="fa-solid fa-3"></i></span>
+                        <span class="number"><i class="fa-solid fa-4"></i></span>
+                        <span class="number"><i class="fa-solid fa-ellipsis"></i></span>
+                        <span class="number"><i class="fa-solid fa-9"></i><i class="fa-solid fa-0"></i></span>
+                        <span class="arrowright1"><i class="fa-solid fa-angle-right"></i></span>
+                        <span class="arrowright2"><i class="fa-solid fa-angles-right"></i></span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

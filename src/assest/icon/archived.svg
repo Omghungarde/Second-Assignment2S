@@ -1,0 +1,8 @@
+<svg id="dashboard" xmlns="http://www.w3.org/2000/svg" width="24.25" height="24" viewBox="0 0 24.25 24">
+  <path id="Path_129693" data-name="Path 129693" d="M0,0H24V24H0Z" fill="none"/>
+  <g id="Group_172695" data-name="Group 172695" transform="translate(0.25 0.25)">
+    <path id="Path_129723" data-name="Path 129723" d="M21.75,9.75v9.5a3,3,0,0,1-3,3H5.25a3,3,0,0,1-3-3V9.75" fill="none" stroke="#797a7a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Path_129724" data-name="Path 129724" d="M21.75,1.75H2.25a1.5,1.5,0,0,0-1.5,1.5v3h22.5v-3A1.5,1.5,0,0,0,21.75,1.75Z" fill="none" stroke="#797a7a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <rect id="Rectangle_148514" data-name="Rectangle 148514" width="7" height="4" rx="1.5" transform="translate(8.5 10.25)" fill="none" stroke="#797a7a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  </g>
+</svg>

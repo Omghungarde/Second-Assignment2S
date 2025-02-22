@@ -1,0 +1,15 @@
+<svg id="In_Progress" data-name="In Progress" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_148512" data-name="Rectangle 148512" width="21.5" height="21.5" fill="none" stroke="#797a7a" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <path id="Path_129693" data-name="Path 129693" d="M0,0H24V24H0Z" fill="none"/>
+  <g id="Group_172691" data-name="Group 172691" transform="translate(1.25 1.25)">
+    <g id="Group_172690" data-name="Group 172690" clip-path="url(#clip-path)">
+      <path id="Path_129718" data-name="Path 129718" d="M5.417,11.838l2.178,3.091a.932.932,0,0,0,1.517.045l6.972-8.82" fill="none" stroke="#797a7a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <circle id="Ellipse_8141" data-name="Ellipse 8141" cx="10" cy="10" r="10" transform="translate(0.75 0.75)" fill="none" stroke="#797a7a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" stroke-dasharray="5.235 5.235"/>
+      <path id="Path_129719" data-name="Path 129719" d="M10.75.75a10,10,0,0,1,0,20" fill="none" stroke="#797a7a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>
